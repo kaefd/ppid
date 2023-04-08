@@ -18,7 +18,7 @@
     </script>
 	<!--end::Theme mode setup on page load-->
     <!-- body -->
-    <div class="container">
+    <div class="container d-grid">
         <div class="row my-5">
             <!-- contain -->
             <div class="col">
@@ -35,7 +35,7 @@
                 <div class="my-5">
                     <!-- title -->
                     <h3 class="fw-bolder">RAPAT EVALUASI SATGAS SABER PUNGLI TAHUN 2023</h3>
-                    <div class="text-secondary-light d-flex gap-3 align-items-center">
+                    <div class="text-secondary-light">
                         <!-- datepost -->
                         <i class="fa fa-calendar"></i>
                         <em>5 Desember 2023</em> /
@@ -90,16 +90,14 @@
             <div class="col-lg-4">
                 <!--cek pengaduan-->
                 <div class="rounded bg-darkblue d-grid align-items-center h-100px px-5">
-                    <form>
-                        <div class="text-light">
-                            <span class="fw-bolder">CEK PENGADUAN</span>
-                            <div class="d-flex gap-3">
-                                <input type="text" class="form-control form-control-sm rounded-1 w-75" id="pengaduan" aria-describedby="emailHelp" placeholder="Masukan No Laporan"/>
-                                <button class="btn btn-sm btn-warning rounded-1 fw-bolder">PERIKSA</button>
-                            </div>
+                    <div class="text-light">
+                        <span class="fw-bolder">CEK PENGADUAN</span>
+                        <div class="d-flex gap-3">
+                            <input type="text" class="form-control form-control-sm rounded-1 w-75" id="pengaduan" placeholder="Masukan No Laporan"/>
+                            <button class="btn btn-sm btn-warning rounded-1 fw-bolder" onclick="getNoPengaduan();">PERIKSA</button>
                         </div>
-                    </form>
-                </div>
+                    </div>
+               </div>
                 <!--external link-->
                 <div class="d-flex align-items-center my-7">
                     <div class="rounded-end-4 w-5px h-50px bg-warning me-5"></div>
