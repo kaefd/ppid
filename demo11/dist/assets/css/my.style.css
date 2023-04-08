@@ -12,6 +12,10 @@
 .color-darkblue {
     color: #202F6A;
 }
+
+.text-blue {
+    color: #0C4FA7;
+}
 .h1 {
     font-size: 3rem !important;
 }
@@ -24,4 +28,13 @@
     background-color: #FFB500 !important;
     color: #202F6A !important;
     font-weight: bold;
+}
+
+.btn-darkblue {
+    background-color: rgb(32, 47, 106) !important;
+    color: white !important;
+}
+
+.text-secondary-light {
+    color: #c2c2c2;
 }
